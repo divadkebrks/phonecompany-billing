@@ -24,7 +24,6 @@ public class TelephoneBillCalculatorImpl implements TelephoneBillCalculator {
 
         List<Call> calls = parseCalls(phoneLog);
         String promoNumber = findPromoNumber(calls);
-        System.out.println("promoNumber = " + promoNumber);
 
         BigDecimal total = BigDecimal.ZERO;
 
