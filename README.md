@@ -6,8 +6,8 @@ Tento projekt obsahuje jednoduchý technický modul pro výpočet částky k úh
 
 Řešení je navrženo tak, aby bylo:
 
-* snadno čitelné a pochopitelné,
-* deterministické a testovatelné,
+* snadno čitelné a pochopitelné
+* deterministické a testovatelné
 
 ---
 
@@ -100,6 +100,3 @@ mvn clean test
 
 ---
 
-## Autor
-
-Technický test – implementace telefonního účtování
