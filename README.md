@@ -15,7 +15,7 @@ Tento projekt obsahuje jednoduchý technický modul pro výpočet částky k úh
 
 * **Java 17 (LTS)** – dlouhodobě podporovaná verze jazyka Java
 * **Maven** – build a dependency management
-* **JUnit 5** – jednotkové testy
+* **JUnit 5** – unit testy
 
 Projekt **nepoužívá žádné externí knihovny** (kromě testovacího frameworku JUnit), veškerá logika je postavena výhradně na standardní Java API.
 
@@ -54,7 +54,7 @@ com.phonecompany.billing.TelephoneBillCalculatorImpl
 src/test/java
 ```
 
-* Jednotkové testy ověřující správnost výpočtu
+* Unit testy ověřující správnost výpočtu, správný výpočet i špatný výpočet
 * Pokrývá základní scénáře dle zadání
 
 ---
@@ -99,4 +99,9 @@ mvn clean test
 * Kód je psán s důrazem na srozumitelnost před mikro-optimalizacemi
 
 ---
+
+## Návrh na vylepšení
+
+* Vylepšit kód lze například čtením CSV ze souboru. Toto nyní není implementováno.
+
 
